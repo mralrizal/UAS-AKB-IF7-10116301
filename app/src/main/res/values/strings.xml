@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SapaID</string>
+    <string name="nama">Muhammad Rizki Alrizal</string>
+    <string name="nim">10116301</string>
+    <string name="kelas">IF-7/AKB-7</string>
+    <string name="kutipan">Tiga kurang dua samadengan satu</string>
+    <string name="contactfragment">Kontak saya</string>
+    <string name="notlp">082240325610</string>
+    <string name="email">rizki.alrizal@yahoo.co.id</string>
+    <string name="instagram">"@mralrizal"</string>
+    <string name="twitter">"@mralrizal"</string>
+    <string name="github">github.com/mralrizal</string>
+
+</resources>

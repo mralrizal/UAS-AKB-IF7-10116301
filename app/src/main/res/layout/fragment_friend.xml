@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0B4F6C"
+            android:gravity="center_horizontal"
+            android:paddingTop="40dp"
+            android:paddingBottom="25dp"
+            android:text="Teman kamu"
+            android:textColor="@color/colorWhite"
+            android:textSize="23sp" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></ListView>
+
+        <Button
+            android:background="#20BF55"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/btnAddFriends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah"/>
+
+    </LinearLayout>
+
+</ScrollView>
